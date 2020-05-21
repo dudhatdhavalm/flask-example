@@ -1,0 +1,8 @@
+{% extends "header.html" %}
+
+{% block content %}
+<h1>Examples List</h1>
+{% for example in example_list%}
+<div>{{example}}</div>
+{% endfor %}
+{% endblock %}
